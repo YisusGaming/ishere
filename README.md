@@ -6,14 +6,14 @@ This Lua script checks whether a specified file is available or not. If the file
 
 Ensure you have Lua installed on your system before running the script. To use the script, follow these steps:
 
-1. Save the script code to a file with a `.lua` extension, for example, `file_availability_checker.lua`.
+1. Save the script code to a file with a `.lua` extension, for example, `ishere.lua`.
 
 2. Open a command prompt or terminal and navigate to the directory containing the script.
 
 3. Run the script by providing the filename as an argument, like this:
 
    ```bash
-   lua file_availability_checker.lua <filename>
+   lua ishere.lua <filename>
    ```
 
    Replace `<filename>` with the path to the file you want to check.
