@@ -4,7 +4,7 @@ end
 
 local fn = arg[1]
 
-if type(fn) ~= 'string' or fn == '' then
+if type(fn) ~= 'string' or fn:match('^%s*$') then
     io.write('File Availability Checker\nCopyright (c) shawnjb 2023\n')
     return
 elseif fn == '-v' or fn == '--version' then
