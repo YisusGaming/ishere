@@ -1,0 +1,12 @@
+# Ignore build and executable files
+*.exe
+*.out
+*.o
+*.obj
+
+# Ignore Lua compiled files
+*.luac
+
+# Ignore generated directories
+/build
+/dist
