@@ -39,10 +39,6 @@ Feel free to use this script to check the availability of files in the same dire
 
 Thank you for using the File Availability Checker!
 
-## About
-
-File availability checker written in Lua.
-
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
