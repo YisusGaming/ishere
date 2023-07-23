@@ -3,6 +3,15 @@ if type(io) ~= 'table' or not io.write then
 end
 
 local fn = arg[1]
+
+if type(fn) ~= 'string' or fn == '' then
+    io.write('File Availability Checker\nCopyright (c) shawnjb 2023\n')
+    return
+elseif fn == '-v' or fn == '--version' then
+    io.write('1.0.0')
+    return
+end
+
 local file, errorMessage = io.open(fn, "r")
 
 if file then
