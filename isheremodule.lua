@@ -14,7 +14,7 @@ return {
             return
         end
 
-        local file, errorMessage = io.open(fn, "r")
+        local file, errorMessage = io.open(fn, 'r')
 
         if file then
             io.write(('The file \"%s\" is available'):format(fn))

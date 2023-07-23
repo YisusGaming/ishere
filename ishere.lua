@@ -1,2 +1,2 @@
-require("isheremodule").validate(arg)
+require('isheremodule').validate(arg)
 os.exit()
