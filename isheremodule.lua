@@ -1,8 +1,5 @@
 return {
     validate = function(arg)
-        if type(io) ~= 'table' or not io.write then
-            require('io')
-        end
         local dir = arg[1]
         local fn = arg[2]
         if not fn then
