@@ -9,7 +9,7 @@ return {
         if type(fn) ~= 'string' or fn:match('^%s*$') then
             return 'File Availability Checker\nCopyright (c) shawnjb 2023\n'
         elseif fn == '-v' or fn == '--version' then
-            return '1.0.1'
+            return '1.0.1\n'
         end
         local filepath = dir .. '/' .. fn
         if io.open(filepath, 'r') then
