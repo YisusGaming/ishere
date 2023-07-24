@@ -1,0 +1,14 @@
+root = true
+
+[*]
+charset = utf-8
+
+[*.{lua,js,jsx,html,css,scss,py,java,cpp,h}]
+indent_style = space
+indent_size = 4
+
+[Makefile]
+indent_style = tab
+
+[exclude]
+paths = third_party/*.js, dist/*.css, build/*.java
