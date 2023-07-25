@@ -11,10 +11,6 @@ return {
         elseif fn == '-v' or fn == '--version' then
             return '1.0.1\n'
         end
-        local filepath = dir .. '/' .. fn
-        if io.open(filepath, 'r') then
-            return true
-        end
-        return false
+        return io.open(dir .. '/' .. fn, 'r') and true or false
     end
 }
